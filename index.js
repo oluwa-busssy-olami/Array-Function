@@ -41,6 +41,8 @@ languages.splice(0, 0, 'Scala', 'Swift');
 console.log(languages);
 
 //Replace ‘PHP’ with ‘Go’ and ‘Rust’
+languages.splice(5, 1, 'Go', 'Rust');
+console.log(languages);
 
 //Question 3
 let fruit = ['apple', 'mango', 'banana'];
